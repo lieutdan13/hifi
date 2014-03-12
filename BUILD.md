@@ -50,6 +50,11 @@ Should you choose not to install Qt5 via a package manager that handles dependen
 
     libasound2 libxmu-dev libxi-dev freeglut3-dev libasound2-dev libjack-dev
 
+#####Ubuntu 12.04 Desktop
+	sudo apt-add-repository ppa:ubuntu-sdk-team/ppa
+	sudo apt-get update
+	sudo apt-get install git-core gcc g++ make build-essential libssl-dev libicu-dev freeglut3-dev unzip gdb python-keyczar libxmu-dev libxi-dev zlibc zlib1g-dev libasound2 libasound2-dev libjack-dev qtdeclarative5-dev qt5-default
+
 ####OS X
 #####Package Managers
 [Homebrew](http://brew.sh/) is an excellent package manager for OS X. It makes install of all hifi dependencies very simple.
