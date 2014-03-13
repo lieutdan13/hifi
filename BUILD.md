@@ -53,7 +53,7 @@ Should you choose not to install Qt5 via a package manager that handles dependen
 #####Ubuntu 12.04 Desktop
 	sudo apt-add-repository ppa:ubuntu-sdk-team/ppa
 	sudo apt-get update
-	sudo apt-get install git-core gcc g++ make build-essential libssl-dev libicu-dev freeglut3-dev unzip gdb python-keyczar libxmu-dev libxi-dev zlibc zlib1g-dev libasound2 libasound2-dev libjack-dev qtdeclarative5-dev qt5-default cmake libglm-dev
+	sudo apt-get install build-essential cmake freeglut3-dev git libasound2 libasound2-dev libcurl4-openssl-dev libjack-dev libqt5location5 libqt5scripttools5 libqt5svg5-dev libqt5webkit5-dev libxi-dev libxmu-dev qtdeclarative5-dev qtlocation5-dev qtmultimedia5-dev qtquick1-5-dev qtscript5-dev qtsensors5-dev qttools5-dev
 
 ####OS X
 #####Package Managers
